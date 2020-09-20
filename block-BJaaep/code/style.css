@@ -117,3 +117,6 @@ h2 {
   text-align: center;
   margin-top: 2rem;
 }
+.box {
+  transition: all 0.3s ease-in-out;
+}
