@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-color: #d9d9d9;
+  font-family: 'Orbitron', sans-serif;
+}
+.container {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  border: 20px solid #d9d9d9;
+  border-radius: 10px;
+  background: #d9d9d9;
+  box-shadow:  22px 22px 43px #5d5d5d, 
+              -22px -22px 43px #ffffff;
+  height: 550px;
+  width: 400px;
+}
+.display {
+  padding: 30px 1px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  box-shadow:  17px 17px 34px #a5a5a5, 
+               -17px -17px 34px #ffffff;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,65px);
+  grid-gap : 20px 20px;
+  align-items: center;
+
+}
+.buttons,
+.cancel {
+  border-radius: 10px;
+  padding: 20px ;
+  background: #d9d9d9;
+  cursor: pointer;
+  box-shadow:  17px 17px 34px #c1c1c1, 
+               -17px -17px 34px #f1f1f1;
+}
+.item8 {
+  grid-row: 2/6;
+  padding: 152px 0;
+  border-radius: 10px;
+  background: #d9d9d9;
+  cursor: pointer;
+  box-shadow:  17px 17px 34px #c1c1c1, 
+               -17px -17px 34px #f1f1f1;
+}
+.item5,
+.item6,
+.item7 {
+  grid-row: 2;
+}
+a {
+  font-size: 20px;
+  font-weight: 900;
+}
+.dot {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 0;
+}
