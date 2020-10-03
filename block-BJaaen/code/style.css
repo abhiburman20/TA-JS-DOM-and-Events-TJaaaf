@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    background: #e6e7ee; 
+}
+h2 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+.container {
+    max-width: 125ch;
+    margin: 0 auto;
+    padding: 1rem 2rem; 
+}
+i {
+    font-size: 4rem;
+    margin: 0 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0.5rem 0.5rem 0.5rem #dadada, -0.1rem -0.1rem 0.1rem #f3f3f3, inset 1rem 1rem 1rem #e4e4e4;
+}
+.user {
+    color: blue;
+}
+.comp {
+    color: red;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+i {
+    padding: 0.5rem;
+}
