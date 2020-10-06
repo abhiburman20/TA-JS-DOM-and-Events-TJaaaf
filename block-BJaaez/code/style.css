@@ -1,0 +1,77 @@
+body {
+    background-color: #e6e7ee;
+}
+.toDo {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 500px;
+    background-color: #e6e7ee;
+    box-shadow: 0.5rem 0.5rem 0.5rem #dadada, -0.1rem -0.1rem 0.1rem #f3f3f3, inset 1rem 1rem 1rem #e4e4e4;
+    padding: 1rem 2.5rem 2.5rem 2.5rem;
+    border-radius: 25px;
+}
+.todo-heading {
+    margin: 1rem 0 3rem 0;
+    color: #dadada;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+input {
+    background-color: #e6e7ee;
+    outline: none;
+    border: 1px solid #e6e7ee;
+    width: 450px;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem #c9c9c6, inset -0.2rem -0.2rem 0.5rem #ffffffef;
+    padding: 0.9rem 1rem;
+    border-radius: 25px;
+    margin: 0 0.5rem 2rem 0.5rem;
+}
+input[name="hour"] {
+    width: 8rem;
+}
+input[name="min"] {
+    width: 8rem;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
+    margin: 1rem 0 1rem -2rem;
+    background-color: whitesmoke;
+    padding: 0 1.8rem;
+    border-radius: 25px;
+    box-shadow: 0.5rem 0.5rem 0.5rem #dadada, -0.1rem -0.1rem 0.1rem #f3f3f3, inset 1rem 1rem 1rem #e4e4e4;
+}
+input[class="time"] {
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    width: 2rem;
+    padding: 0.2rem 0 0.2rem 0;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: 0 0.5rem;
+}
+button {
+    font-weight: 600;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #e6e7ee;
+    border-radius: 25px;
+    margin: 0.2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #dadada, -0.1rem -0.1rem 0.1rem #f3f3f3, inset 1rem 1rem 1rem #e4e4e4;
+}
+input[type="checkbox"] {
+    outline: none;
+    width: auto;
+    margin: 0;
+
+}
+span {
+    font-size: 1rem;
+    cursor: pointer;
+}
